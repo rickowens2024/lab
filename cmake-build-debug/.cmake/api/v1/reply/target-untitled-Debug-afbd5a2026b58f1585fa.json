@@ -107,27 +107,27 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "task1/Task1.h",
+			"path" : "Task1.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "task2/Task2.h",
+			"path" : "Task2.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Task3/Task3.h",
+			"path" : "Task3.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "task4/Task4.h",
+			"path" : "Task4.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "task5/Task5.h",
+			"path" : "Task5.h",
 			"sourceGroupIndex" : 1
 		}
 	],

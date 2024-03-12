@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/stanislavverevkin/CLionProjects/untitled/cmake-build-debug"
+			"value" : "/Users/stanislavverevkin/Desktop/untitled/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/stanislavverevkin/CLionProjects/untitled/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/stanislavverevkin/Desktop/untitled/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/stanislavverevkin/CLionProjects/untitled"
+			"value" : "/Users/stanislavverevkin/Desktop/untitled"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/stanislavverevkin/CLionProjects/untitled/cmake-build-debug"
+			"value" : "/Users/stanislavverevkin/Desktop/untitled/cmake-build-debug"
 		},
 		{
 			"name" : "untitled_IS_TOP_LEVEL",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/stanislavverevkin/CLionProjects/untitled"
+			"value" : "/Users/stanislavverevkin/Desktop/untitled"
 		}
 	],
 	"kind" : "cache",
