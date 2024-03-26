@@ -92,8 +92,7 @@
 				1,
 				2,
 				3,
-				4,
-				5
+				4
 			]
 		}
 	],
@@ -123,11 +122,6 @@
 		{
 			"backtrace" : 1,
 			"path" : "Task4.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Task5.h",
 			"sourceGroupIndex" : 1
 		}
 	],

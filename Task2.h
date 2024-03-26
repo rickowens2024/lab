@@ -2,28 +2,25 @@
 #define UNTITLED_TASK2_H
 
 #include <iostream>
+#include <cmath>
 
 class Task2 {
 public:
     Task2() {
-        setlocale(LC_ALL, "ru");
-        std::cout << "Cкiлъки пiц зaмoвляeтe?";
-        std::cin >> count;
+        double num1, num2, num3;
 
-        std::cout << "Cкiльки кoштyє oднa пiцa?";
-        std::cin >> price;
+        std::cout << "Введите три действительных числа: ";
+        std::cin >> num1 >> num2 >> num3;
 
-        float total = count * price;
-        std::cout << "Цiнa без знижки: " << total;
+        if (num1 >= 0)
+            std::cout << "Квадрат числа " << num1 << ": " << pow(num1, 2) << std::endl;
 
-        float discount = total * 0.1;
-        total = total - discount;
-        std::cout << "\nРозмiр знижки: " << discount << "\nЦiна зi знижкою: " << total;
+        if (num2 >= 0)
+            std::cout << "Квадрат числа " << num2 << ": " << pow(num2, 2) << std::endl;
+
+        if (num3 >= 0)
+            std::cout << "Квадрат числа " << num3 << ": " << pow(num3, 2) << std::endl;
     }
-
-private:
-    int count{};
-    float price{};
 };
 
 #endif

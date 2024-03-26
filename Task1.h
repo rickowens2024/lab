@@ -4,19 +4,17 @@
 #include <iostream>
 
 class Task1 {
-private:
-    int a;
-    int a1;
-    int a2;
-    int res;
-
 public:
     Task1() {
-        a = 74;
-        a1 = a / 10;
-        a2 = a % 10;
-        res = a1 + a2;
-        std::cout << "Result: " << res << std::endl;
+        int num1, num2, num3;
+
+        std::cout << "Введите три числа: ";
+        std::cin >> num1 >> num2 >> num3;
+
+        if (num2 > num1 + num3)
+            std::cout << "Второе число больше суммы первого и третьего: " << num2 << std::endl;
+        else
+            std::cout << "Разница первого и второго чисел: " << (num1 - num2) << std::endl;
     }
 };
 

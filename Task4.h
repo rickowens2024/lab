@@ -5,26 +5,16 @@
 
 class Task4 {
 public:
-    Task4() {
-        int A, B, n;
-        std::cout << "Введіть ціну олівця у гривнях: ";
-        std::cin >>
-                 A;
-        std::cout << "Введіть ціну олівця у копійках: ";
-        std::cin >>
-                 B;
-        std::cout << "Введіть кількість олівців: ";
-        std::cin >>
-                 n;
+    Task4(double distance, double time) {
+        const double speed = 60;
+        double travel_time = distance / speed;
 
-        int total_in_kop = (A * 100 + B) * n;
-        int hryvnias = total_in_kop / 100;
-        int remainder_kop = total_in_kop % 100;
-
-        std::cout << "Загальна вартість " << n << " олівців становить " << hryvnias << " гривень та " << remainder_kop
-                  << " копійок\n";
+        if (travel_time <= time) {
+            std::cout << "Да, пассажир успеет доехать до места за " << time << " часов." << std::endl;
+        } else {
+            std::cout << "Нет, пассажир не успеет доехать до места за " << time << " часов." << std::endl;
+        }
     }
 };
-
 
 #endif
