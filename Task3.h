@@ -8,23 +8,23 @@ public:
     Task3() {
         int score;
 
-        std::cout << "Введите оценку (от 0 до 100): ";
+        std::cout << "Enter a score (from 0 to 100): ";
         std::cin >> score;
 
         if (score >= 0 && score <= 100) {
             if (score >= 90) {
-                std::cout << "Отличная оценка! Продолжайте в том же духе!" << std::endl;
+                std::cout << "Excellent score! Keep up the good work!" << std::endl;
             } else if (score >= 80) {
-                std::cout << "Хорошая оценка! Неплохо, но можно лучше." << std::endl;
+                std::cout << "Good score! Not bad, but there's room for improvement." << std::endl;
             } else if (score >= 70) {
-                std::cout << "Удовлетворительная оценка. Есть место для улучшений." << std::endl;
+                std::cout << "Satisfactory score. There is room for improvement." << std::endl;
             } else if (score >= 60) {
-                std::cout << "Достаточная оценка. Рекомендуется больше усилий." << std::endl;
+                std::cout << "Passing score. More effort is recommended." << std::endl;
             } else {
-                std::cout << "Низкая оценка. Нужно серьезно поработать." << std::endl;
+                std::cout << "Low score. Serious effort is needed." << std::endl;
             }
         } else {
-            std::cout << "Оценка введена неверно. Оценка должна быть от 0 до 100." << std::endl;
+            std::cout << "Invalid score entered. Score should be between 0 and 100." << std::endl;
         }
     }
 };

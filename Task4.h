@@ -10,9 +10,9 @@ public:
         double travel_time = distance / speed;
 
         if (travel_time <= time) {
-            std::cout << "Да, пассажир успеет доехать до места за " << time << " часов." << std::endl;
+            std::cout << "Yes, the passenger will reach the destination in " << time << " hours." << std::endl;
         } else {
-            std::cout << "Нет, пассажир не успеет доехать до места за " << time << " часов." << std::endl;
+            std::cout << "No, the passenger will not reach the destination in " << time << " hours." << std::endl;
         }
     }
 };
